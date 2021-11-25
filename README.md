@@ -29,4 +29,4 @@ Todas son propuestas, el propósito de **/Proyectos** es brindarte el diseño, e
 
 Encuentra más proyectos asombrosos en [/Proyectos](https://leonidasesteban.com/proyectos)
 
-Diseñado con ♥️ en leonidasesteban.com
+Diseñado con ♥️ en xavi.com
