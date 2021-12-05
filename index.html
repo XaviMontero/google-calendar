@@ -12,12 +12,18 @@
 </head>
 <body>
   <div class="page">
-    <header class="header"></header>
+    <header class="header">
+      <button class="button is-primary">button</button>
+      <a class="button is-secondary" href="#">button</a>
+      <a class="button is-rounded  is-shwadown" href="#"> <i class="icon-plus"></i> <span>Button</span> </a>
+      <a class="button is-compact" href="#"><i class="icon-plus"></i></a>
+
+    </header>
       <div class="sidebar"></div>
       <main class="calendar">
+        <div class="current-time"></div>
         <div class="calendar-week">
-          <span>Time Zone</span>
-
+          <div class="timeZoneCell">GMT-5</div>
           <h2 class="calendarDay">
             <a href="./calendar-by-day.html">
               <time datetime="06-06-2021" aria-label="Domingo 06 de Junio">
@@ -59,7 +65,7 @@
               </time>
             </a>
           </h2>
-          <h2 class="calendarDay is">
+          <h2 class="calendarDay is-selected">
             <a href="./calendar-by-day.html">
               <time datetime="06-06-2021" aria-label="Domingo 06 de Junio">
                 <span>DOM</span> <br>
@@ -75,8 +81,7 @@
               </time>
             </a>
           </h2>
-
-          <span>01:00</span>
+          <span class="hourCell"></span>
           <div tabindex="0" class="taskCell">
             <div class="task" aria-label="Hacer ejercicios">
               <p>Hacer Ejercicio</p>
@@ -91,6 +96,7 @@
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
+          <span class="hourCell">1 AM</span>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
@@ -98,6 +104,7 @@
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
+          <span class="hourCell">2 AM</span>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
@@ -105,6 +112,7 @@
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
+          <span class="hourCell">3 AM</span>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
@@ -112,12 +120,159 @@
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
+          <span class="hourCell">4 AM</span>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">5 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">6 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">7 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">8 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">9 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">10 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">11 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">12 AM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">13 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">14 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">15 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">16 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">17 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">18 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">19 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">20 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">21 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">22 PM</span>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <div class="taskCell"></div>
+          <span class="hourCell">23 PM</span>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
           <div class="taskCell"></div>
