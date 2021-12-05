@@ -1,5 +1,6 @@
-@import url('task.css');
-@import url('taskCell.css');
+@import url('./task.css');
+@import url('./taskCell.css');
+@import url('./calendar-day.css');
 .calendar{
   --min-block-size: 4rem;
   --max-block-size: auto;
