@@ -54,6 +54,7 @@
 }
 .icon-hamburguer-button:before {
   content: "\e909";
+  font-size: 1.2rem;
 }
 .icon-help-circle:before {
   content: "\e90a";

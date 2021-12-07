@@ -1,0 +1,33 @@
+.header-calendar{
+  display: flex;
+  align-items: center;
+}
+
+.calendar-1 {
+  display: flex;
+  align-items: center;
+}
+
+.calendar-text{
+  font: var(--body1-medium);
+  color: var(--gray30);
+  font-size: 22px;
+}
+
+.calendar-1-1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-calendar-1{
+  display: flex;
+  gap: 4rem;
+}
+
+.calendar-group-2{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
