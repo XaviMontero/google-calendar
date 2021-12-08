@@ -50,7 +50,63 @@
 
 
     </header>
-    <div class="sidebar"></div>
+    <div class="sidebar">
+      <div class="mini-calendar" aria-label="Calendario">
+        <div class="mini-calendar-status">
+          <time class="mini-calendar-days" datetime="2021-06">Junio 2021</time>
+
+          <div class="mini-calendar-navigation">
+            <a href="" class="button is-compact" aria-label="Siguiente semana"><i aria-hidden="true" class="icon-chevron-left">
+              </i></a>
+            <a href="" class="button is-compact" aria-label="Semana anterior"><i aria-hidden="true" class="icon-chevron-right">
+              </i></a>
+          </div>
+
+        </div>
+        <div class="mini-calendar-header">
+          <div class="mini-calendar-week-day">D</div>
+          <div class="mini-calendar-week-day">L</div>
+          <div class="mini-calendar-week-day">M</div>
+          <div class="mini-calendar-week-day">M</div>
+          <div class="mini-calendar-week-day">J</div>
+          <div class="mini-calendar-week-day">V</div>
+          <div class="mini-calendar-week-day">S</div>
+        </div>
+        <div class="mini-calendar-month">
+            <div class="mini-calendar-day is-inactive">30</div>
+            <div class="mini-calendar-day is-inactive ">2</div>
+            <div class="mini-calendar-day is-inactive">3</div>
+            <div class="mini-calendar-day">4</div>
+            <div class="mini-calendar-day">5</div>
+            <div class="mini-calendar-day">6</div>
+            <div class="mini-calendar-day">7</div>
+            <div class="mini-calendar-day">8</div>
+            <div class="mini-calendar-day">9</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day is-selected-calendar">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day">10</div>
+            <div class="mini-calendar-day is-inactive">10</div>
+            <div class="mini-calendar-day is-inactive">10</div>
+            <div class="mini-calendar-day is-inactive">10</div>
+        </div>
+
+      </div>
+    </div>
     <main class="calendar">
       <div class="current-time"></div>
       <div class="calendar-week">
@@ -314,6 +370,21 @@
       </div>
     </main>
   </div>
+  <dialog  class="modal">
+    <form action="">
+
+    </form>
+    Hola mundo
+    <div class="modal-actions">
+      <button class="button">Cancelar</button>
+      <button class="button is-primary">Guardar</button>
+    </div>
+  </dialog>
+
+  <script>
+
+     document.querySelector('.modal').showModal();
+  </script>
 </body>
 
 </html>
