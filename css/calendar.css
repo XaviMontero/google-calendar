@@ -18,3 +18,11 @@
   min-block-size: 700px;
 }
 
+
+.calendar-day {
+  display: grid;
+  grid-template-columns: auto repeat(1, minmax(var(--min-inline-size), var(--max-inline-size)));
+  grid-template-rows: 7rem repeat(24, minmax(var(--min-block-size), var(--max-block-size) ));
+  min-block-size: 700px;
+}
+

@@ -4,11 +4,32 @@ background: var(--red10);
 inline-size: 5rem;
 position: absolute;
 inset-block-start: 200px;
-inset-inline-start: 300px;
+inset-inline-start: 70px;
 z-index: 2;
 }
 
 .current-time::before{
+  content: '';
+  display: block;
+  inline-size: 1rem;
+  block-size: 1rem;
+  background: var(--red10);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+
+.current-time-day{
+block-size: 2px;
+background: var(--red10);
+inline-size: 80%;
+position: absolute;
+inset-block-start: 200px;
+inset-inline-start: 70px;
+z-index: 2;
+}
+
+.current-time-day::before{
   content: '';
   display: block;
   inline-size: 1rem;
