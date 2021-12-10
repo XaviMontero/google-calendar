@@ -16,3 +16,13 @@
   margin: 0;
   white-space: nowrap;
 }
+
+.task.is-secondary-task{
+  background:var(--blue20);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  .task {
+    color:#FFFF;
+  }
+}

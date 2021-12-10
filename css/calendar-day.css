@@ -16,6 +16,24 @@
   outline: none;
 }
 
+
+@media screen and (prefers-color-scheme: dark) {
+  .calendarDay a {
+    color:#FFFF;
+  }
+
+  .calendarDay a:hover span:nth-of-type(2),
+  .calendarDay a:focus span:nth-of-type(2){
+    color: black;
+  }
+
+  .calendarDay.is-selected a span:nth-of-type(2),
+  .calendarDay.is-selected a span:nth-of-type(2){
+    color: white;
+  }
+
+}
+
 .calendarDay a:hover span:nth-of-type(2),
 .calendarDay a:focus span:nth-of-type(2){
   background: var(--gray10);
@@ -25,9 +43,9 @@
 .calendarDay.is-selected a:focus span:nth-of-type(2){
   background: var(--blue30);
 }
+
 .calendarDay span:nth-of-type(1){
   font: var(--body1-regular);
-
 }
 .calendarDay span:nth-of-type(2){
   font: var(--subtitle-subtitle1);

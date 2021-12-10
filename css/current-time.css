@@ -20,13 +20,13 @@ z-index: 2;
 
 
 .current-time-day{
-block-size: 2px;
-background: var(--red10);
-inline-size: 80%;
-position: absolute;
-inset-block-start: 200px;
-inset-inline-start: 70px;
-z-index: 2;
+  block-size: 2px;
+  background: var(--red10);
+  inline-size: 80%;
+  position: absolute;
+  inset-block-start: 200px;
+  inset-inline-start: 70px;
+  z-index: 2;
 }
 
 .current-time-day::before{
